@@ -1,19 +1,4 @@
 import React, { useEffect, useState, useRef } from "react";
-
-/*
-  Complete App.jsx — cleaned up (no duplicate function declarations).
-  Features:
-  - Difficulty filter (easy/medium/hard/all)
-  - Shuffle questions & options
-  - Progress bar with smooth animation
-  - Per-question timer with auto-advance
-  - Feedback highlighting correct/wrong answers
-  - Restart (reshuffle / same order)
-  - Dark mode toggle
-  - High-score saved to localStorage
-  - Styling follows the nude pastel palette and layout guidelines you gave
-*/
-
 const SAMPLE_QUESTIONS = [
   // EASY
   { id: 1, difficulty: "easy", question: "Which language runs in a web browser?", options: ["Java", "C", "JavaScript", "Python"], correctIndex: 2 },
